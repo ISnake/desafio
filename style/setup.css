@@ -1,0 +1,360 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: whit;
+    font-family: 'Times New Roman', Times, serif;
+    color:black
+}
+
+header .container{
+    
+    background-color:firebrick;
+
+    display: flex;
+    flex-flow: row center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    height: 130px;
+    width: 130px;
+    padding:15px;
+
+}
+
+header .escrita{
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    font-style:oblique;
+    margin-right: 15px;
+}
+
+header nav a{
+    font-family: 'Arial';
+    font-size: 16px;
+    text-decoration: none;
+    color:orangered;
+    margin-right: 20px;
+}
+
+header nav a:hover{
+    color: black;
+}
+
+.principal-menu{
+    background-color: lavender;
+
+    display: flex;
+    background-repeat: no-repeat;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: space-between;
+
+    margin-right: 50px;
+    margin-left: 150px;
+    margin-bottom: 30px;
+
+    height: 335px;
+
+}
+
+.foto{
+    margin-right: 150px;
+    margin-left:-100px
+    
+}
+
+.descr{
+    background: lavender;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS';
+    font-size: 20px;
+    color: black;
+ 
+    margin-left: 150px;
+    margin-right: 100px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+/*aqui ajusto botao*/
+.principal-menu .descricao{
+
+    margin-top: 10px;
+    margin-bottom: 40px;
+
+}
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    color:red;
+
+    margin-bottom: 5%;
+    margin-top: 5%;
+    font-size: 30px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+
+.botao{
+    background-color: rgba(0,0,0,.50);
+    border: none;
+    color: white;
+
+    padding: 15px 30px;
+    margin-right: 15px;
+    margin-top: 15%;
+    font-size: 16px;
+    align-items: center;
+
+
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao:hover{
+    background-color: black;
+    color:white;
+
+}
+
+.principal-menu .container{
+    display:flex;
+
+    align-items: center;
+
+}
+
+
+
+.item1{
+    background: url(/img/banner35.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 200px;
+    
+    justify-content:center;
+
+    height: 400px;
+    width: 1000px;
+}
+
+.titulo1{
+    display: flex;
+    justify-content: center;
+    color: red;
+}
+
+.item2{
+    background:url(/img/banner41.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 200px;
+
+    justify-content: center;
+
+    height: 400px;
+    width: 1000px;
+}
+
+.titulo2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: red;
+}
+
+.item3{
+    background: url(/img/banner39.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-left: 200px;
+
+    justify-content: center;
+
+    height: 400px;
+    width: 1000px;
+}
+
+.titulo3{
+    color:red;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.final{
+    
+    font-family: 'Arial Narrow Bold';
+    background-color: black;
+    height: 120px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+
+    margin-top: 20px;
+}
+
+.final-item{
+    color: #fff;
+}
+
+.btn1{
+    text-decoration: none;
+    color:#fff;
+}
+
+/*sevicos.html*/
+
+.caixa{
+    margin:0;
+    padding: 0;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    display: flex;
+    flex-flow: row center;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.caixa5{
+    background-color: lavender;
+    display: flex;
+    flex-flow: row center;
+    align-content: space-between;
+    justify-content: space-between;
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+
+
+
+}
+
+.container5{
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.cont1{
+    
+    margin-left: 120px;
+}
+.cont2{
+    
+    margin-left: 220px;
+}
+.cont3{
+    
+    margin-left: 250px;
+}
+
+
+
+
+.titu1{
+    background-color: black;
+    color: white;
+    margin-right: 10px;
+    margin-right: 10px;
+}
+
+.titu2{
+    background-color: grey;
+   margin-right: 10px;
+   margin-left: 10px;
+}
+
+.titu3{
+    background-color: white;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.texto1{
+    flex-direction: column;
+    align-content: space-between;
+
+}
+
+.texto{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 17px;
+    margin-left: 20px;
+    margin-top: 10px;
+    text-align: justify;
+
+}
+
+.img{
+    height: 300px;
+}
+
+.img1{
+    height: 400px;
+    margin-left: 200px;
+    
+}
+
+/*PAGINA NOVIDADES*/
+
+.caixa2{
+    display: flex;
+    flex-direction: column flex-start;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+.tarja{
+    background-color:black;
+    font-family:fantasy;
+    color:white;
+    font-size: 40px;
+    margin-left:20px;
+    
+}
+
+.caixa3{
+    margin: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+
+    display: flex;
+    flex-direction: column center;
+    justify-content: center;
+
+
+}
+
+.caixa3 .box{
+    background-color: orange;;
+    height: 300px;
+    width: 300px;
+
+    margin: 30px;
+
+    padding: 30px;  
+    border: solid black;
+    font-style: bold;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+
+}
+
+/*CONTATOS*/
+
+.contacts{
+    height: 80px;
+    display: flex;
+    flex-flow: column flex-start;
+    justify-content: space-around;
+    
+    height: 300px;
+    margin-top: 100px;
+}
+
+.logos{
+    margin-top:10px;
+}
